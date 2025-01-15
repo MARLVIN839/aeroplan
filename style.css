@@ -1,0 +1,524 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: "Ubuntu", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.containermain{
+    width: 100%;
+    height: 100%;
+}
+.container1{
+    width: 100%;
+    height: 50%;
+}
+.header{
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+.left{
+    width: 100%;
+    height: 20%;
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+.left h2{
+    font-size: 2rem;
+    margin-left: 10px;
+    color: #EA580C;
+}
+.middle{
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-left: 15rem;
+    font-size: medium;
+    align-items: center;
+}
+.middle h1{
+    font-size: large;
+}
+
+.do{
+    color: #EA580C;
+}
+.right{
+    width: 40%;
+    margin-left: 10rem;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+button{
+    background-color: #EA580C;
+    color: white;
+    display: flex;
+    width: 170px;
+    height: 35px;
+    border-radius: 20px;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin-left: 1rem;
+}
+.background{
+    width: 100%;
+    height: 80%;
+    /* background-color: red; */
+    background: url(https://img.freepik.com/free-photo/executive-manager-woman-planning-company-presentation-explaining-management-strategy-businessteam-working-startup-office-mock-up-green-screen-chroma-key-monitor-isolated-display_482257-34968.jpg?uid=R179700628&ga=GA1.1.1840264643.1734361442&semt=ais_hybrid);
+    background-repeat: no-repeat;
+    background-size: 95%;
+    /* background: local; */
+    position:absolute;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    border-radius: 15px;
+}
+.top button{
+    background-color: #352B25;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-left: 35rem;
+    margin-top: 10rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    width: 170px;
+    /* height:35%; */
+}
+.center {
+    font-size: 1.8rem;
+    /* display: flex; */
+    flex-direction: row;
+    margin-left:25rem;
+    color:white;
+
+}
+.center p{
+    display: flex;
+    /* justify-content: center; */
+}
+.centerp2{
+    margin-left: 5rem;
+}
+.bottom button{
+    border-radius: 10px;
+    margin-left: 35rem;
+    margin-top: 2rem;
+}
+.other{
+    width: 100%;
+    height: 70%;
+}
+.other button{
+    width: 180px;
+    height: 9%;
+    background-color: #FBDECE;
+    border-radius: 10px;
+    color: #EA580C;
+    border: #EA580C;
+    margin-left: 35rem;
+}
+.other h1{
+    font-size: 2.5rem;
+    margin-left: 30rem;
+}
+.other p{
+    font-size: 1.2rem;
+    margin-left: 25rem;
+
+}
+.cards{
+    width: 95%;
+    height: 95%;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    /* text-align: justify; */
+    
+}
+.card2{
+    margin-left: 6rem;
+    width: 100%;
+    height: 30%;
+    margin-top: 5rem;
+    background-color: antiquewhite;
+   text-align: center;
+    border-radius: 15px;
+}
+.card2 i{
+    /* width: 40%; */
+    color: #EA580C;
+    display: flex;
+    justify-content: center
+}
+.card2 h2{
+    font-size: 1.5rem;
+    /* margin-left: 30rem; */
+    /* margin-top: 2rem;  */
+}
+
+
+.card1{
+    width: 100%;
+    height: 30%;
+    margin-top: 5rem;
+    background-color: antiquewhite;
+    /* margin-left: 4rem; */
+    border-radius: 15px;
+    text-align: center;
+}
+.card1 h2{
+    font-size: 1.5rem;
+    /* margin-left: 30rem; */
+    /* margin-top: 2rem; */
+}
+.card1 i{
+    /* width: 40%; */
+    color: #EA580C;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+}
+.another{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.navs{
+    width: 75%;
+    height: 325px;
+   display: flex;
+    /* justify-content: center; */
+    flex-direction: row;
+    /* background-color: red; */
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+.no{
+    background-color: #FBDECE;
+    color: #EA580C;
+    border-radius: 10px;
+    margin-top: 4rem;
+    height: 7%;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 40rem;
+}
+.nav1{
+    width: 50%;
+    height: 100%;
+    /* background-color: white; */
+    align-items: center;
+  
+}
+.nav1 i{
+    color: #EA580C;
+}
+.nav1 button{
+    border-radius: 10px;
+    margin-top: 2rem;
+    margin-left: 10rem;
+}
+.nav1 h1{
+    margin-left: 8rem;
+}
+.nav1 p{
+    margin-left: 
+    6rem;
+}
+.nav2{
+    /* background-image: url(); */
+    position: absolute;
+    margin-left: 36.5rem;
+}
+.container4{
+    width: 100%;
+    height: 400px;
+}
+.cups{
+    width: 90%;
+    height: 400px;
+    display: flex;
+}
+.cup1{
+    margin-left: 5rem;
+    border-radius: 10px;
+    width:50%;
+    height: 100%;
+}
+.cup2{
+width: 50%;
+height:100%;
+}
+.cup2 button{
+    background-color: #FBDECE;
+    color: #EA580C;
+    border-radius: 10px;
+
+}
+.cup2 i{
+    color: #EA580C;
+}
+.cup2 p{
+    color: #3F3F46;
+}
+.cup2 h3{
+    background-color: #EA580C;
+    color: #EA580C;
+    border-radius: 20px;
+} 
+.you{
+    display: flex;
+    justify-content: space-between;
+}
+.container5{
+    width: 100%;
+    height: 100%;
+}
+.volt{
+    width: 
+    100%;
+    height: 100%;
+    display: flex;
+}
+.volt1{
+    width: 50%;
+    height: 100%;
+}
+.volt1 img{
+    margin-top: 5rem;
+    margin-left: 6rem;
+}
+.volt1 h1{
+font-size: 2rem;
+margin-left: 7rem;
+}
+.volt1 p{
+    margin-left: 7rem;
+}
+.look{
+    margin-top: 3rem;
+}
+.container6{
+    width: 100%;
+    height: 80%;
+}
+.caves{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.cave1{
+    width: 50%;
+    height: 100%;
+}
+.cave2{
+    margin-top: 10rem;
+}
+.cave2 i{
+    color: rgb(245, 220, 0);
+    border: black;
+}
+.cave2 p{
+    color: #3F3F46;
+}
+.cave2 button{
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+.container7{
+    width: 100%;
+    height: 100%;
+}
+.codes{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.code1{
+    width: 50%;
+    height: 100%;
+}
+.code1 h1{
+    font-size: 2rem;
+    margin-left: 5rem;
+}
+.vod{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+.cods{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 2rem;
+}
+.lod{
+    display: flex;
+    gap: 2rem;
+}
+.moe{
+    display: flex;
+    gap: 2rem;
+    margin-left: 5rem;
+}
+.container8{
+    width: 100%;
+    height: 100%;
+}
+.tabs{
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+.tab1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 7rem;
+    margin-left: 5rem;
+}
+.frame{
+    margin-top: 2rem;
+}
+.tab2{
+    width: 50%;
+    height: 100%;
+
+}
+.tab2 button{
+    background-color: #FBDECE;
+    color: #EA580C;
+    margin-top: 9rem;
+    border-radius: 5px;
+    width: 100px;
+}
+ buttonn{
+    background-color: #f15907;
+    color: white;
+    width: 175px;
+    height: 5%;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.lab{
+    width: 90%;
+    height: 40%;
+    background-color:#FBDECE;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    margin-left: 4rem;
+    /* margin-bottom: 10rem; */
+}
+.lab2{
+    margin-top: 3rem;
+}
+.container9{
+    width: 100%;
+    height: 50%;
+    margin-top: 10rem;
+}
+.tins{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 3rem;
+}
+.tin1{
+    width: 40%;
+    height: 100%;
+}
+.tin{
+    width: 40%;
+    height: 100%;
+}
+.mx{
+    display: flex;
+    margin-left: 3rem;
+}
+.mx h2{
+    color: #EA580C;
+    margin-top: 3px;
+    font-size: 2rem;
+}
+.tin1 p{
+    margin-left: 3rem;
+    display: flex;
+    gap: 2rem;
+    color: #3F3F46;
+}
+.em{
+    background-color: #FBDECE;
+    color: #f15907;
+    margin-top: 3rem;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+.tin h3{
+    display: flex;
+    /* gap: 1rem; */
+    margin-top: 
+    0.6rem;
+    color: #3F3F46;
+}
+.tin2{
+    width: 40%;
+    height: 50%;
+}
+.tin2 h3{
+    /* display: flex; */
+    /* gap: 1rem; */
+    margin-top: 
+    0.6rem;
+    color: #3F3F46;
+    font-size: 1.5rem;
+    flex-direction: column;
+}
+.container9 h1 i{
+color: red;
+
+}
+.ts{
+    display: flex;
+    justify-content: space-between;
+}
+.container9 h1{
+    font-size: larger;
+    margin-left: 3rem;
+}
+.container9 h2{
+    margin-right: 5rem;
+    font-size: larger;
+}
+.rem{
+    font-size: 3rem;
+}
