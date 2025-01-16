@@ -63,7 +63,7 @@ button{
     background-color: #EA580C;
     color: white;
     display: flex;
-    width: 170px;
+    width: 165px;
     height: 35px;
     border-radius: 20px;
     /* text-align: center; */
@@ -71,7 +71,9 @@ button{
     justify-content: center;
     border: none;
     margin-left: 1rem;
+    padding: 1rem 2rem;
 }
+
 .background{
     width: 100%;
     height: 80%;
@@ -120,6 +122,7 @@ button{
 .other{
     width: 100%;
     height: 70%;
+    margin-top: 3rem;
 }
 .other button{
     width: 180px;
@@ -195,7 +198,9 @@ button{
     width: 100%;
     height: 500px;
     display: flex;
+    /* flex-direction: row; */
     justify-content: center;
+    margin-top: 3rem;
 }
 .navs{
     width: 75%;
@@ -289,12 +294,15 @@ height:100%;
 .container5{
     width: 100%;
     height: 100%;
+    /* display: flex; */
+    /* flex-direction: row; */
 }
 .volt{
     width: 
     100%;
     height: 100%;
     display: flex;
+    flex-direction: row;
 }
 .volt1{
     width: 50%;

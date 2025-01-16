@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width:100vw;
+    height: 100vh;
+}
+.container5{
+    width:100%;
+    height: 100%;
+    /* display: flex; */
+    /* background-color: red; */
+}
+.volt{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-left: 4rem;
+    margin-top: 3rem;
+}
+.volt1{
+    width: 50%;
+    height: 100%;
+}
+.volt1{
+    width: 50%;
+    height: 100%;
+}
+.volt2{
+    width:50%;
+    height: 100%;
+}
